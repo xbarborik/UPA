@@ -15,7 +15,7 @@ def getTabletUrls(number_of_products_to_scrape = 150):
     a_tags = product_list.find_all("a", class_="offerboxtitle")
 
     for a_tag in a_tags:
-      url = "https://www.laptopsdirect.co.uk/" + a_tag["href"]
+      url = "https://www.laptopsdirect.co.uk" + a_tag["href"]
       if url in urls:
         continue
       print(url)
@@ -25,6 +25,8 @@ def getTabletUrls(number_of_products_to_scrape = 150):
         break
 
     pageNumber += 1
+    if not a_tags:
+      break
 
 if __name__ == "__main__":
   getTabletUrls()
