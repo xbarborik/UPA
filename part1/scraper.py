@@ -11,10 +11,12 @@ def scrapeTablet(url, writer, parameters):
   data = {param: "N/A" for param in parameters}
   data["URL"] = url
 
+  # Extract Name
   name_tag = soup.select_one("h1")
   if name_tag:
     data["Name"] = name_tag.get_text(strip=True)
 
+  # Extract Price
   price_container = soup.select_one("span.VersionOfferPrice")
   if price_container:
     currency = price_container.select_one("span.VersionPriceSymbol")
@@ -26,7 +28,7 @@ def scrapeTablet(url, writer, parameters):
     decimal_text = decimal.get_text(strip=True) if decimal else ""
     data["Price"] = currency_text + whole_text + decimal_text
 
-
+  # Extract Specifications
   rows = soup.select("#tab-dimensions tr")
   for row in rows:
     tds = row.find_all("td")
@@ -47,7 +49,6 @@ def scrapeTablet(url, writer, parameters):
 
 
 def scrapeTablets():
-
   writer = csv.writer(sys.stdout, delimiter="\t")
   parameters = [
     "URL",
@@ -76,4 +77,4 @@ def scrapeTablets():
     scrapeTablet(url, writer, parameters)
 
 if __name__ == "__main__":
-    scrapeTablets()
+  scrapeTablets()
