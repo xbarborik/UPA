@@ -2,3 +2,5 @@ venv
 *.txt
 *.tsv
 .vscode/
+part3/part3/*
+part3/part3
