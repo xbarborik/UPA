@@ -1,0 +1,51 @@
+RAM,OperatingSystem,Brand,Price_Tier,Storage_Tier
+4.0,Android,Samsung,Budget,Small
+6.0,Android,Samsung,MidRange,Medium
+12.0,Android,Samsung,MidRange,Medium
+3.0,Android,Samsung,Budget,Small
+4.0,Android,Samsung,Budget,Small
+3.0,Android,TCL,Budget,Small
+4.0,Android,Samsung,Budget,Small
+4.0,iPadOS 18,Apple,MidRange,Medium
+4.0,iPadOS 18,Apple,MidRange,Medium
+8.0,Android,Samsung,Budget,Medium
+4.0,Android,Samsung,Budget,Small
+8.0,Android,Samsung,Premium,Medium
+4.0,Android,Lenovo,MidRange,Small
+3.0,iPadOS,Apple,Budget,Small
+3.0,iPadOS,Apple,Budget,Small
+4.0,Android,Refurbished,Budget,Small
+4.0,iPadOS 18,Apple,MidRange,Medium
+4.0,Android,Lenovo,Budget,Medium
+8.0,Android,Samsung,Budget,Medium
+2.0,Unknown,Refurbished,Budget,Small
+4.0,iPadOS 18,Apple,MidRange,Medium
+4.0,iPadOS 18,Apple,MidRange,Medium
+4.0,iPadOS 18,Apple,MidRange,Medium
+4.0,iPadOS 18,Apple,MidRange,Medium
+4.0,Android,TCL,Budget,Small
+4.0,Unknown,Samsung,Budget,Medium
+8.0,Android 14,Lenovo,Budget,Medium
+4.0,Android,Acer,Budget,Medium
+12.0,Android,Samsung,Premium,Medium
+6.0,Android,Samsung,MidRange,Medium
+1.0,Android,Alcatel,Budget,Small
+4.0,iPadOS 18,Apple,MidRange,Medium
+4.0,iPadOS 18,Apple,MidRange,Medium
+8.0,Android,Samsung,Premium,Medium
+4.0,Android 15,Samsung,Budget,Small
+4.0,iPadOS 18,Apple,MidRange,Medium
+4.0,iPadOS 18,Apple,MidRange,Medium
+8.0,iPadOS 18,Apple,Premium,Medium
+8.0,iPadOS 18,Apple,MidRange,Medium
+8.0,iPadOS 18,Apple,Premium,Medium
+12.0,Android,Refurbished,MidRange,Medium
+4.0,Android,Acer,Budget,Small
+4.0,Android,Acer,Budget,Medium
+4.0,Android,Lenovo,Budget,Medium
+4.0,Android,TCL,Budget,Medium
+8.0,iPadOS,Apple,Premium,Large
+12.0,Android,Samsung,Premium,Medium
+4.0,iOS,Apple,MidRange,Small
+4.0,Android,Samsung,MidRange,Small
+8.0,iPadOS,Apple,MidRange,Small
